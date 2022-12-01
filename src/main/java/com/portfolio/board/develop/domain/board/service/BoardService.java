@@ -20,4 +20,7 @@ public interface BoardService {
     /* 게시물 paging 조회 */
     /* 게시물 전체 조회 */
     List<GetBoardResult> getBoardList(BoardFindCond boardFindCond);
+
+    void deleteBoard(UpdateBoardCommand command);
+
 }
